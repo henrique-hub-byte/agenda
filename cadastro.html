@@ -1,0 +1,21 @@
+<h1>Agenda - Cadastrar</h1>
+<form method="post" action="cadastro.php">
+    <label for="">Nome:</label>
+    <input type="text" name="nome" placeholder="Campo obrigatório!">
+    
+    <label for="">Sexo:</label>
+    <input type="radio" name="sexo" value="M" checked>Masculino
+    <input type="radio" name="sexo" value="F">Feminino<br>
+    
+    <label for="">Email: </label>
+    <input type="text" name="email" required><br>
+    
+    <label for="">Telefone: </label>
+    <input type="text" id="tel" name="telefone" placeholder="(ddd)99999-9999"><br>
+    
+    <br>
+    <label for="">Observação:</label>
+    <textarea name="obs" id="" cols="50" rows="5"></textarea><br>
+    <input type="submit" value="Cadastrar"><br>
+    <input type="reset" value="Limpar Campos">
+</form>

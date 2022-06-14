@@ -1,0 +1,35 @@
+#topo,#rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    clear: both;
+    font-size: 16px;
+}
+
+#menu {
+    background-color: gray;
+    color: black;
+    float: left;
+    height: 598px;
+    width: 150px;
+} 
+
+#conteudo {
+    padding: 5px;
+    text-indent: 10px;
+}
+
+#mapa {
+    position: relative;
+    left: 25%;
+    padding-top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+#texto {
+    font: 20px arial;
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+}
